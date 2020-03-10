@@ -1,12 +1,11 @@
 import React, { Component } from "react";
 import {
   View,
-  Text,
   StyleSheet,
   TouchableWithoutFeedback,
   Animated
 } from "react-native";
-import { AntDesign, Entypo } from "@expo/vector-icons";
+import { AntDesign } from "@expo/vector-icons";
 
 export default class components extends Component {
   animation = new Animated.Value(0);
